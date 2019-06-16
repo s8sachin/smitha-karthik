@@ -109,6 +109,10 @@ body {
 }
 
 @media (max-width: 992px) {
+  body{
+    padding-top: 25px;
+  }
+
   .logo-hr{
     width: 100%;
   }
