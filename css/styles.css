@@ -108,6 +108,10 @@ body {
   margin:20px ;
 }
 
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
 @media (max-width: 992px) {
   body{
     padding-top: 25px;
