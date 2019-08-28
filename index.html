@@ -85,6 +85,31 @@
       </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal fade" id="promoModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <!-- <div class="modal-content"> -->
+
+          <!-- Modal Header -->
+          <!-- <div class="modal-header">
+            <h4 class="modal-title">Modal Heading</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div> -->
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" style="position: absolute;right: 27px; font-size: 40px;">&times;</button>
+            <img class="img-responsive w-100" src="https://i.ibb.co/F4jXVLw/promo-Image.jpg" >
+          </div>
+
+          <!-- Modal footer -->
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="page-footer font-small indigo bg-white mt-5">
       <div class="container">
@@ -153,3 +178,8 @@
     <!-- Footer -->
   </body>
 </html>
+<script>
+  $(window).on('load',function(){
+    $('#promoModal').modal('show');
+  });
+</script>
