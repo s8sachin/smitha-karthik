@@ -139,6 +139,7 @@ body {
   height: 200px;
   display: block;
   object-fit: cover;
+  cursor: pointer;
 }
 
 /* Showcase modal */
